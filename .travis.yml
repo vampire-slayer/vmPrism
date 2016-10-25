@@ -1,2 +1,3 @@
 language: cpp
 solution: vmPrism.sln 
+script: make

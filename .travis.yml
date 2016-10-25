@@ -1,5 +1,19 @@
 language: cpp
-compiler: clang++
+
+compiler:
+    - g++
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-4.8
+    - g++-4.8
+    - cmake
+
+install:
+- if [ "$CXX" = "g++" ]; then export CXX="g++-4.8 -std=c++11 -DENABLE_REINFORCEMENT_LEARNING" CC="gcc-4.8"; fi
 
 solution: vmPrism.sln 
 script: make

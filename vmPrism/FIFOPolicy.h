@@ -1,5 +1,6 @@
 #ifndef FIFO_H
 #define FIFO_H
+#define RUN_FIFO
 
 //Author      : Suvojit Manna
 //Application : vmPrism

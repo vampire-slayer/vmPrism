@@ -1,6 +1,7 @@
 #include <iostream>
 #include "FIFOPolicy.h"
 
+#ifdef RUN_FIFO
 int main()
 {
 	std::vector<size_t> refList =
@@ -12,3 +13,4 @@ int main()
 	std::cout << cal.page_fault() << std::endl;
 	return 0;
 }
+#endif

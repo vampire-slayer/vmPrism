@@ -1,6 +1,6 @@
 #ifndef FIFO_H
 #define FIFO_H
-#define RUN_FIFO
+// #define RUN_FIFO
 
 //Author      : Suvojit Manna
 //Application : vmPrism
@@ -44,4 +44,3 @@ public:
 	size_t page_fault(void);
 };
 #endif
-

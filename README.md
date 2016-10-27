@@ -10,7 +10,7 @@ Compare diffrent page replacement algortihms.
 The program reads the page reference list and calcultes the simulates the passed algorithm on the given cache size.
 Supported Algorithms - 
 - [x] First In First Out (FIFO)
-- [ ] Least Recently Used (LRU)
+- [x] Least Recently Used (LRU)
 - [ ] Optimal (OPT)
   
 Example -
